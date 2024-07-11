@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="input">
+                <textarea name="from" id="from">Hi there! How are you?</textarea>
+                <textarea name="to" id="to" placeholder="It will show something"></textarea>
+            </div>
+            <!-- <hr> -->
+            <div class="list">
+                <button class="copy-btn1"><i class="fa-solid fa-copy"></i></button>
+                <button class="speak-btn1"><i class="fa-solid fa-volume-high"></i></button>
+                <select name="initial" id="initial">
+                </select>
+                <button class="exchange-btn"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                <select name="final" id="final">
+                </select>
+                <button class="speak-btn2"><i class="fa-solid fa-volume-high"></i></button>
+                <button class="copy-btn2"><i class="fa-solid fa-copy"></i></button>
+            </div>
+        </div>
+        <button class="translate-btn">Translate Text</button>
+    </div>
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
